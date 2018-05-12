@@ -1,0 +1,13 @@
+# python file compile cache
+/.idea/
+/__pycache__/
+/venv/
+/.vscode/
+
+# data file 
+*.csv
+posturedata.json
+
+# draft file for test grammer
+pydraft.py
+test.py
