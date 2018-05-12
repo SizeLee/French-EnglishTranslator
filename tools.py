@@ -40,6 +40,7 @@ def filterPairs(pairs):
     return [pair for pair in pairs if filterPair(pair)]
 
 
+
 # Preparing Training Data
 # -----------------------
 #

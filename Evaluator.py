@@ -23,7 +23,6 @@ def timeSince(since, percent):
 
 import matplotlib.pyplot as plt
 # plt.switch_backend('agg')
-
 import matplotlib.ticker as ticker
 import numpy as np
 

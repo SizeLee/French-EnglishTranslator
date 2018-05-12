@@ -73,6 +73,7 @@ def train(input_tensor, target_tensor, encoder, decoder, encoder_optimizer, deco
 
     return loss.item() / target_length
 
+
 ####################################################
 # The whole training process looks like this:
 #

@@ -4,6 +4,7 @@ from torch import optim
 import torch.nn.functional as F
 from tools import *
 
+
 class AttnDecoderRNN(nn.Module):
     def __init__(self, hidden_size, output_size, dropout_p=0.1, max_length=MAX_LENGTH):
         super(AttnDecoderRNN, self).__init__()

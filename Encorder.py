@@ -4,6 +4,7 @@ from torch import optim
 import torch.nn.functional as F
 from tools import *
 
+
 class EncoderRNN(nn.Module):
     def __init__(self, input_size, hidden_size):
         super(EncoderRNN, self).__init__()

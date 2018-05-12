@@ -8,6 +8,7 @@ import random
 from tools import *
 
 
+
 class Lang:
     def __init__(self, name):
         self.name = name

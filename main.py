@@ -18,6 +18,7 @@ from Attention import *
 from Train import *
 
 
+
 input_lang, output_lang, pairs = prepareData('eng', 'fra', True)
 print(random.choice(pairs))
 
